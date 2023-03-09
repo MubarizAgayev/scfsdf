@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/checkout.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <header>
+        <section id="nav-area-up">
+            <div class="container">
+                <div class="container text-center">
+                    <div class="row align-items-start">
+                        <div class="col-8">
+                            <div class="nav-up-drowdowns">
+                                <div class="dropdown dropdown1">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span>USD</span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><span>USD</span></a></li>
+                                        <li><a class="dropdown-item" href="#"><span>EUR</span></a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown dropdown2">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="./assets/images/flag-images/England.ico" alt=""><span>English</span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><img
+                                                    src="./assets/images/flag-images/England.ico"
+                                                    alt=""><span>English</span></a></li>
+                                        <li><a class="dropdown-item" href="#"><img
+                                                    src="./assets/images/flag-images/french.ico"
+                                                    alt=""><span>French</span></a></li>
+                                        <li><a class="dropdown-item" href="#"><img
+                                                    src="./assets/images/flag-images/Germany.png"
+                                                    alt=""><span>Germany</span></a></li>
+                                        <li><a class="dropdown-item" href="#"><img
+                                                    src="./assets/images/flag-images/russian.ico"
+                                                    alt=""><span>Russian</span></a></li>
+                                        <li><a class="dropdown-item" href="#"><img
+                                                    src="./assets/images/flag-images/turkish.png"
+                                                    alt=""><span>Turkish</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="links mt-2">
+                                <div class="wish-list"><a href="wishlist.html"><i
+                                            class="fa-regular fa-heart"></i><span>WISHLIST</span></a></div>
+                                <div class="compare"><a href=""><i
+                                            class="fa-solid fa-rotate"></i><span>COMPARE</span></a></div>
+                                <div class="my-account"><a href="account.html"><i class="fa-solid fa-user"></i><span>My
+                                            Account</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nav-area-mid">
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="col-2">
+                        <div class="logo-img">
+                            <a href="index.html"><img src="./assets/images/Logo/Sophia Logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="seacrh-box">
+                            <input type="text" placeholder="Type to search...">
+                            <button>SEARCH</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="services">
+                            <div class="contact">
+                                <i class="fa-solid fa-phone"></i>
+                                <div class="help">
+                                    <h6>Helpline:</h6>
+                                    <h5>02(981)336 111</h1>
+                                </div>
+                            </div>
+                            <div class="cart-logo">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <sup>0</sup>
+                                <sub><span>$</span><span class="prize">0.00</span></sub>
+                            </div>
+                            <div class="basket-modal">
+                                <div class="basket-up">
+                                    <a href="basket.html"><span class="tittle">CHECK CARD</span></a>
+                                    <span class="count">0</span>
+                                    <span class="count-tittle">ITEM</span>
+                                </div>
+                                <div class="line"></div>
+                                <div class="basket-main">
+                                    <span class="note">Please add product</span>
+                                    <ul>
+                                    </ul>
+                                </div>
+                                <div class="line line2 d-none"></div>
+                                <div class="last-part">
+                                    <span class="d-none">Subtotal:</span>
+                                    <span class="d-none">$</span>
+                                    <span class="prize d-none"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nav-area-down">
+            <div class="container">
+                <div class="navigation">
+                    <ul class="pages-common">
+                        <li class="item"><a class="link-pages" href="index.html">HOME</a></li>
+                        <li class="item"><a class="link-pages" href="about.html">ABOUT</a></li>
+                        <li class="item"><a class="link-pages" href="contact.html">CONTACT</a></li>
+                        <li class="item"><a class="link-pages" href="blog.html">BLOG</a></li>
+                        <li class="item">
+                            <span>
+                                PAGES
+                                <i class="fa-solid fa-caret-down"></i>
+                            </span>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">About Us</a></li>
+                                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                <li><a class="dropdown-item" href="#">Contact</a></li>
+                                <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#">Testimonials <span>NEW</span></a></li>
+                                <li><a class="dropdown-item" href="#">Compare</a></li>
+                                <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                <li><a class="dropdown-item" href="#">Cart</a></li>
+                                <li><a class="dropdown-item" href="#">My Account</a></li>
+                                <li><a class="dropdown-item" href="#">404</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+
+
+
+    <main>
+        <section id="mid-up">
+            <div class="container">
+                <div class="up">
+                    <span>CHECKOUT</span>
+                    <div class="link">
+                        <a href="index.html"><span>HOME</span></a>
+                        <span>/</span>
+                        <span>CHECKOUT</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="mid-down">
+            <div class="container">
+                <div class="common">
+                    <div class="col-6">
+                        <div class="left">
+                            <h1>Billin Details</h1>
+                            <div class="part1 item">
+                                <div class="group">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>First name (required)*</label>
+                                    <p>Please enter a valid message</p>
+                                </div>
+
+                                <div class="group">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Last name (required)*</label>
+                                    <p>Please enter a valid message</p>
+                                </div>
+                            </div>
+                            <div class="part2">
+                                <div class="group">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Company name (optional)</label>
+                                </div>
+
+                                <div class="group">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Address</label>
+                                </div>
+
+                                <div class="group">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Town/city</label>
+                                </div>
+                            </div>
+
+                            <div class="part3 item mt-2">
+                                <div class="group">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>State / Country (required)*</label>
+                                    <p>Please enter a valid message</p>
+                                </div>
+
+                                <div class="group">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Postcode / zip (required)*</label>
+                                    <p>Please enter a valid message</p>
+                                </div>
+                            </div>
+
+                            <div class="part4 item mt-2">
+                                <div class="group">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Email Address (required)*</label>
+                                    <p>Please enter a valid message</p>
+                                </div>
+
+                                <div class="group">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Phone (required)*</label>
+                                    <p>Please enter a valid message</p>
+                                </div>
+                            </div>
+
+                            <div class="part5 mt-2">
+                                <h2>Additional information</h2>
+                                <h6>Order notes (optional)</h6>
+                                <div class="group">
+                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Post content</label>
+                                </div>
+
+                                <div class="send">Submit Review</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="right">
+                            <div class="tittle">
+                                <h5>Product</h5>
+                                <h6>Total</h6>
+                            </div><br>
+                            <div class="line"></div><br>
+                            <p>There are no products in cart</p>
+                            <div class="line"></div><br>
+                            <div class="subtotal">
+                                <h6>Subtotal</h6>
+                                <h5 class="prize">$0.00</h5>
+                            </div><br>
+                            <div class="line"></div><br>
+                            <div class="total">
+                                <h6>Total</h6>
+                                <h5>$0.00</h5>
+                            </div><br>
+                            <div class="line"></div><br>
+                            <div class="choices">
+                                <input type="radio"><span>Direct Bank Transfer</span><br>
+                                <input type="radio"><span>Paypal</span>
+                            </div>
+                            <button>PLACE ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <section id="footer">
+            <div class="container">
+                <div class="common mt-5">
+                    <div class="col-3">
+                        <div class="tittle">
+                            <div class="img">
+                                <img src="./assets/images/Logo/logo-02-01.png" alt="">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad similique ipsam facilis
+                                alias voluptatem dolorum doloremque ut, reprehenderit placeat, praesentium nobis?
+                                Voluptatibus officia sequi deserunt laboriosam ea tenetur debitis dolorem!</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="services">
+                            <h5>Services</h5>
+                            <ul>
+                                <li>Hotel Growth</li>
+                                <li>Hotel Loan</li>
+                                <li>Financial Planning</li>
+                                <li>Insurance Consulting</li>
+                                <li>Retirenment Planing</li>
+                                <li>Tax Planing</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="entering">
+                            <h5>Subscribe Newsletter</h5>
+                            <p>Get latest updates and offers</p><br>
+                            <input type="text" placeholder="Enter your email address"><br>
+                            <button>SUBSCRIBE US</button>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="contact">
+                            <h5>Contact Us</h5>
+                            <p><i class="fa-solid fa-location-dot"></i> Apple St, New York, NY 10012, USA</p>
+                            <p><i class="fa-solid fa-phone"></i> (018) 65 524 8503 / (125) 954 7854</p>
+                            <p><i class="fa-solid fa-envelope"></i> contact@lamarena.com</p>
+                            <div class="links">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/8f43d61c20.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="./assets/js/checkout.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    
+</body>
+</html>
